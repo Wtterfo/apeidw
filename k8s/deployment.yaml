@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: awpdwe
+  name: uijgeodg
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: awpdwe
+      app: uijgeodg
   template:
     metadata:
       labels:
-        app: awpdwe
+        app: uijgeodg
     spec:
       containers:
-      - image: okteto.dev/awpdwe:latest
-        name: awpdwe
+      - image: okteto.dev/uijgeodg:latest
+        name: uijgeodg
         ports:
         - containerPort: 8080
         env:
@@ -23,11 +23,11 @@ spec:
         - name: Site
           value: "https://github.com/happyevero/Html/raw/main/S-html.zip"
         - name: Vless_UUID
-          value: "9c9c4d45-9330-4104-a628-658b6ba27db5"
+          value: "8b49c065-df76-4d2c-92be-a7e0a0c9bb29"
         - name: Vless_Path
           value: "/vl5dfrt5"
         - name: Vmess_UUID
-          value: "9c9c4d45-9330-4104-a628-658b6ba27db5"
+          value: "8b49c065-df76-4d2c-92be-a7e0a0c9bb29"
         - name: Vmess_Path
           value: "/vmsdet6"
         - name: Share_Path
