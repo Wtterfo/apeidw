@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: sdwej
+  name: zgbnoei
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: sdwej
+      app: zgbnoei
   template:
     metadata:
       labels:
-        app: sdwej
+        app: zgbnoei
     spec:
       containers:
-      - image: okteto.dev/sdwej:latest
-        name: sdwej
+      - image: okteto.dev/zgbnoei:latest
+        name: zgbnoei
         ports:
         - containerPort: 8080
         env:
@@ -23,11 +23,11 @@ spec:
         - name: Site
           value: "https://github.com/happyevero/Html/raw/main/S-html.zip"
         - name: Vless_UUID
-          value: "06d56ee6-af9c-4219-82ba-6baf287fd524"
+          value: "29da2678-abc0-41e6-92d0-65f10f4634f4"
         - name: Vless_Path
           value: "/vl5dfrt5"
         - name: Vmess_UUID
-          value: "06d56ee6-af9c-4219-82ba-6baf287fd524"
+          value: "29da2678-abc0-41e6-92d0-65f10f4634f4"
         - name: Vmess_Path
           value: "/vmsdet6"
         - name: Share_Path
