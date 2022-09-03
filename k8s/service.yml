@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: sdwej
+  name: zgbnoei
   annotations:
     dev.okteto.com/auto-ingress: "true"
 spec:
   type: ClusterIP  
   ports:
-  - name: "sdwej"
+  - name: "zgbnoei"
     port: 8080
   selector:
-    app: sdwej
+    app: zgbnoei
